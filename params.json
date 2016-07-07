@@ -1,0 +1,6 @@
+{
+  "name": "Project Work at DLCV",
+  "tagline": "DLCV Group 1",
+  "body": "# Project Work at DLCV\r\n\r\nThis is the project repository for the group 1 at the DLCV. The Team is made up by:\r\n\r\n| ![Javier de la Rica][image-javier] | ![Eva Julian][image-eva] | ![Alberto Montes][image-alberto] | ![Andrés Rojas][image-andres] | ![Daniel Saez][image-daniel] |\r\n| :---: | :---: | :---: | :---: | :---: |\r\n| Javier de la Rica | Eva Julian | Alberto Montes | Andrés Rojas | Daniel Saez |\r\n\r\nIt is going to be explained below what has been done during the [Deep Learning for Computer Vison](http://TelecomBCN.DeepLearning.Barcelona) course at UPC at Summer 2016.\r\n\r\n![Universitat Politècnica de Catalunya][image-upc-logo]\r\n\r\n# Task 1\r\n\r\n\r\n\r\n# Task 2\r\n\r\n\r\n\r\n# Task 3\r\n\r\n\r\n\r\n# Task 4\r\n\r\n\r\n\r\n# Task 5\r\n\r\n\r\n\r\n\r\n<!--Images-->\r\n[image-javier]: misc/images/javier_rica.jpeg \"Javier de la Rica\"\r\n[image-eva]: misc/images/eva_julian.jpg \"Eva Julian\"\r\n[image-alberto]: misc/images/alberto_montes.jpg \"Alberto Montes\"\r\n[image-andres]: misc/images/andres_rojas.jpg \"Andrés Rojas\"\r\n[image-daniel]: misc/images/daniel_saez.jpg \"Daniel Saez\"\r\n\r\n[image-upc-logo]: misc/images/upc_etsetb.jpg\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
