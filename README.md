@@ -6,7 +6,7 @@ This is the project repository for the group 1 at the DLCV. The Team is made up 
 | :---: | :---: | :---: | :---: | :---: |
 | Javier de la Rica | Eva Julian | Alberto Montes | Andrés Rojas | Daniel Saez |
 
-It is going to be explained below what has been done during the [Deep Learning for Computer Vison](TelecomBCN.DeepLearning.Barcelona) course at UPC at Summer 2016.
+It is going to be explained below what has been done during the [Deep Learning for Computer Vison](http://TelecomBCN.DeepLearning.Barcelona) course at UPC at Summer 2016.
 
 ![Universitat Politècnica de Catalunya][image-upc-logo]
 
