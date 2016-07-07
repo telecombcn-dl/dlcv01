@@ -16,11 +16,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 1,
    "metadata": {
     "collapsed": false
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "Using TensorFlow backend.\n"
+     ]
+    }
+   ],
    "source": [
     "import numpy as np\n",
     "import matplotlib.pyplot as plt\n",
@@ -140,7 +148,13 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 5,
+||||||| merged common ancestors
+   "execution_count": 23,
+=======
    "execution_count": 40,
+>>>>>>> e38565c4185155b33fe0aaa3de193b388fa93f05
    "metadata": {
     "collapsed": false
    },
@@ -253,7 +267,13 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 8,
+||||||| merged common ancestors
+   "execution_count": null,
+=======
    "execution_count": 26,
+>>>>>>> e38565c4185155b33fe0aaa3de193b388fa93f05
    "metadata": {
     "collapsed": false
    },
@@ -264,6 +284,27 @@
      "text": [
       "Train on 60000 samples, validate on 10000 samples\n",
       "Epoch 1/10\n",
+<<<<<<< HEAD
+      "60000/60000 [==============================] - 496s - loss: 0.2707 - acc: 0.9167 - val_loss: 0.0712 - val_acc: 0.9767\n",
+      "Epoch 2/10\n",
+      "60000/60000 [==============================] - 488s - loss: 0.0627 - acc: 0.9811 - val_loss: 0.0694 - val_acc: 0.9775\n",
+      "Epoch 3/10\n",
+      "60000/60000 [==============================] - 491s - loss: 0.0448 - acc: 0.9861 - val_loss: 0.0520 - val_acc: 0.9824\n",
+      "Epoch 4/10\n",
+      "60000/60000 [==============================] - 2235s - loss: 0.0348 - acc: 0.9893 - val_loss: 0.0461 - val_acc: 0.9843\n",
+      "Epoch 5/10\n",
+      "60000/60000 [==============================] - 4697s - loss: 0.0283 - acc: 0.9911 - val_loss: 0.0342 - val_acc: 0.9887\n",
+      "Epoch 6/10\n",
+      "60000/60000 [==============================] - 474s - loss: 0.0232 - acc: 0.9928 - val_loss: 0.0349 - val_acc: 0.9889\n",
+      "Epoch 7/10\n",
+      "60000/60000 [==============================] - 516s - loss: 0.0185 - acc: 0.9944 - val_loss: 0.0336 - val_acc: 0.9899\n",
+      "Epoch 8/10\n",
+      "60000/60000 [==============================] - 491s - loss: 0.0155 - acc: 0.9954 - val_loss: 0.0362 - val_acc: 0.9894\n",
+      "Epoch 9/10\n",
+      "60000/60000 [==============================] - 473s - loss: 0.0126 - acc: 0.9963 - val_loss: 0.0381 - val_acc: 0.9886\n"
+||||||| merged common ancestors
+      "13312/60000 [=====>........................] - ETA: 230s - loss: 0.5012 - acc: 0.8462"
+=======
       "60000/60000 [==============================] - 295s - loss: 0.1774 - acc: 0.9459 - val_loss: 0.0419 - val_acc: 0.9861\n",
       "Epoch 2/10\n",
       "60000/60000 [==============================] - 285s - loss: 0.0443 - acc: 0.9862 - val_loss: 0.0332 - val_acc: 0.9891\n",
@@ -271,6 +312,7 @@
       "60000/60000 [==============================] - 292s - loss: 0.0286 - acc: 0.9910 - val_loss: 0.0336 - val_acc: 0.9899\n",
       "Epoch 4/10\n",
       "60000/60000 [==============================] - 334s - loss: 0.0192 - acc: 0.9940 - val_loss: 0.0396 - val_acc: 0.9873\n"
+>>>>>>> e38565c4185155b33fe0aaa3de193b388fa93f05
      ]
     }
    ],
