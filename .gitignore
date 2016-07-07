@@ -90,3 +90,4 @@ ENV/
 
 *.hdf5
 logs
+.DS_Store
