@@ -39,15 +39,16 @@ model.add(Dropout(0.5))
 model.add(Dense(num_classes, activation='softmax'))
 
 # compilar modelo
-epochs = 25 
-lrate = 0.01
+epochs = 4 
+lrate = 0.1
 decay = lrate/epochs
+batch_size=32
 sgd = SGD(lr=lrate, momentum=0.9, decay=decay, nesterov=False)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 #print(model.summary())
 
 # error !
-model.fit(X_train, y_train, validation_data=(X_test, y_test), nb_epoch=epochs, batch_size=32)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), nb_epoch=epochs, batch_size=batch_size)
 #model.fit(X_train, y_train, nb_epoch=epochs, batch_size=32)
 
 # Final evaluation of the model
