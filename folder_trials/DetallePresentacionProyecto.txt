@@ -1,0 +1,34 @@
+TASK 1: Architecture. Experiment with the layers and their parameters.
+
+
+From "Task1", there are 3 layers fully connected, and it is necessary to do more epoch to reduce losses.
+
+From "Task1_CNN" there are 3 convolutionals and 2 fully connected layers, so that means that there is no necessity to make so much epochs to achieve less losses.
+
+From "Task_CNN_with noise" there is the same process than in Task1_CNN but in this case there is noise to see if the accuracy works properly with images.
+
+The accuracy is similar because it is working with binary images.
+The more layers it has, the more it is specialized.
+-------------------------------------------------------------------------
+TASK 2:Data augmentation, Batch size, Overfitting & Regularization --------------------------------Falta 0.5 y 0.9 con 10 epoch
+
+With MNIST we have used 1 convolutional layers and 2 fully connected. In this case the DROPOUT has been modified and experimented in two different cases: with a value of 0.5 and a value of 0.2. 
+
+*Dropout = 0.2 -> The accuracy=0.98 (10 epoch)
+*Dropout = 0.5 -> The accuracy is a little higher (regulariza y por tanto hay menos overfitting)
+*Dropout = 0.9 ->
+Pero si le pones mucho, tienes muy pcas conexiones y no puedes aprender, con lo que tendriamos una peor accuracy
+
+----------------------------------------------------------------------
+TASK 3:Visualization. Visualization of filters, Visualization over images
+
+Hablar con Alberto
+----------------------------------------------------------------------
+TASK 4:Transfer learning. Fine-tuning, domain adaptation
+
+
+----------------------------------------------------------------------
+TASK 5: Free-choice task
+
+In this task there is an analysis of the Buildings of Terrassa after rotate the images, in order to allow the machine to learn
+----------------------------------------------------------------------
