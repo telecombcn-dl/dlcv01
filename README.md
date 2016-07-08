@@ -28,6 +28,8 @@ The main aim of this second task is to train owr own neuronal networks with some
 
 # Task 5
 
+In this task we wanted to train a neural network to detect the rotation angle of an image. This can for example be used to automatically straighten photos that have been taken with a camera. We used a simple architecture with 1 convolutional layer and 2 fully connected layers. The last layer contains 360 neurons to classify all the possible rotation angles. We use the angle error instead of the classification error because we wanted to measure how close the true angle and the predicted angles are, (the classification error would only help us evaluate when the predicted angle and the true angle are exactly the same).
+
 
 
 
