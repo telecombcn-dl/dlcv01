@@ -12,6 +12,7 @@ It is going to be explained below what has been done during the [Deep Learning f
 
 # Task 1
 
+The objective of the first task is to create a neuronal network and to try different layers and different amount of them to observe the behavior and causes of applying one kind of layer or another, playing with the amount of neurons and the kind of activation we apply to them.
 
 
 # Task 2
@@ -20,6 +21,7 @@ The main aim of this second task is to train owr own neuronal networks with some
 
 # Task 3
 
+For the visualization task it was trained a network with the MNIST dataset. On the one hand, it was trained with the original input dataset, and on the other hand, we tried to train it with an input data with gaussian noise added, so that we are able to compare the results obtained and study if the noise does actually affect to the result.
 
 
 # Task 4
