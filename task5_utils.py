@@ -2,6 +2,10 @@ import random
 import numpy as np
 from scipy.ndimage.interpolation import rotate
 import matplotlib.pyplot as plt
+from skimage.util import crop
+from scipy.misc import imread
+from skimage.transform import resize
+import os
 
 
 def rotate_image(image, angles=range(360)):
@@ -108,3 +112,26 @@ def plot_error_hist(y, y_angles, y_predicted_angles, error_type='angle'):
 
 def angle_difference(x, y):
     return 180 - abs(abs(x - y - 180))
+
+
+def open_and_resize(im, size):
+    h, w, c = im.shape
+    if h < w:
+        before_n = (w - h) / 2
+        after_n = w - (h + before_n)
+        im_cropped = crop(im, ((0, 0), (before_n, after_n), (0, 0)))
+    else:
+        before_n = (h - w) / 2
+        after_n = h - (w + before_n)
+        im_cropped = crop(im, ((before_n, after_n), (0, 0), (0, 0)))
+    im_cropped = resize(im_cropped, (size, size, c))
+    return im_cropped
+
+
+def load_and_resize_images(folder, size):
+    images = []
+    image_paths = os.listdir(folder)
+    for image_path in image_paths:
+        im = imread(os.path.join(folder, image_path))
+        images.append(open_and_resize(im, size))
+    return np.asarray(images)
