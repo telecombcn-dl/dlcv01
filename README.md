@@ -16,7 +16,7 @@ It is going to be explained below what has been done during the [Deep Learning f
 
 # Task 2
 
-
+The main aim of this second task is to train owr own neuronal networks with some different input databases so that we can study the stage of training a neuronal network trying to overfitting it, increasing the data with augmentation of the input databse or regularizing the network by using different values of drop out. This may lead us to some different results in terms of accuracy and loss, so we can conclude which metric and values are the most accurate.
 
 # Task 3
 
