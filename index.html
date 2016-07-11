@@ -27,11 +27,11 @@
 <table>
 <thead>
 <tr>
-<th align="center"><img src="misc/images/javier_rica.jpeg" alt="Javier de la Rica" title="Javier de la Rica"></th>
-<th align="center"><img src="misc/images/eva_julian.jpg" alt="Eva Julian" title="Eva Julian"></th>
-<th align="center"><img src="misc/images/alberto_montes.jpg" alt="Alberto Montes" title="Alberto Montes"></th>
-<th align="center"><img src="misc/images/andres_rojas.jpg" alt="Andrés Rojas" title="Andrés Rojas"></th>
-<th align="center"><img src="misc/images/daniel_saez.jpg" alt="Daniel Saez" title="Daniel Saez"></th>
+<th align="center"><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/javier_rica.jpeg" alt="Javier de la Rica" title="Javier de la Rica"></th>
+<th align="center"><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/eva_julian.jpg" alt="Eva Julian" title="Eva Julian"></th>
+<th align="center"><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/alberto_montes.jpg" alt="Alberto Montes" title="Alberto Montes"></th>
+<th align="center"><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/andres_rojas.jpg" alt="Andrés Rojas" title="Andrés Rojas"></th>
+<th align="center"><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/daniel_saez.jpg" alt="Daniel Saez" title="Daniel Saez"></th>
 </tr>
 </thead>
 <tbody>
@@ -47,22 +47,30 @@
 
 <p>It is going to be explained below what has been done during the <a href="http://TelecomBCN.DeepLearning.Barcelona">Deep Learning for Computer Vison</a> course at UPC at Summer 2016.</p>
 
-<p><img src="misc/images/upc_etsetb.jpg" alt="Universitat Politècnica de Catalunya"></p>
+<p><img src="https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/upc_etsetb.jpg" alt="Universitat Politècnica de Catalunya"></p>
 
 <h1>
 <a id="task-1" class="anchor" href="#task-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 1</h1>
 
+<p>The objective of the first task is to create a neuronal network and to try different layers and different amount of them to observe the behavior and causes of applying one kind of layer or another, playing with the amount of neurons and the kind of activation we apply to them.</p>
+
 <h1>
 <a id="task-2" class="anchor" href="#task-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 2</h1>
 
+<p>The main aim of this second task is to train our own neuronal networks with some different input databases so that we can study the stage of training a neuronal network trying to overfitting it, increasing the data with augmentation of the input database or regularizing the network by using different values of drop out. This may lead us to some different results in terms of accuracy and loss, so we can conclude which metric and values are the most accurate.</p>
+
 <h1>
 <a id="task-3" class="anchor" href="#task-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 3</h1>
+
+<p>For the visualization task it was trained a network with the MNIST dataset. On the one hand, it was trained with the original input dataset, and on the other hand, we tried to train it with an input data with gaussian noise added, so that we are able to compare the results obtained and study if the noise does actually affect to the result.</p>
 
 <h1>
 <a id="task-4" class="anchor" href="#task-4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 4</h1>
 
 <h1>
 <a id="task-5" class="anchor" href="#task-5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Task 5</h1>
+
+<p>In this task we wanted to train a neural network to detect the rotation angle of an image. This can for example be used to automatically straighten photos that have been taken with a camera. We used a simple architecture with 1 convolutional layer and 2 fully connected layers. The last layer contains 360 neurons to classify all the possible rotation angles. We use the angle error instead of the classification error because we wanted to measure how close the true angle and the predicted angles are, (the classification error would only help us evaluate when the predicted angle and the true angle are exactly the same).</p>
 
 
 
