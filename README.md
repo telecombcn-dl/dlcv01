@@ -17,7 +17,7 @@ The objective of the first task is to create a neuronal network and to try diffe
 
 # Task 2
 
-The main aim of this second task is to train owr own neuronal networks with some different input databases so that we can study the stage of training a neuronal network trying to overfitting it, increasing the data with augmentation of the input databse or regularizing the network by using different values of drop out. This may lead us to some different results in terms of accuracy and loss, so we can conclude which metric and values are the most accurate.
+The main aim of this second task is to train our own neuronal networks with some different input databases so that we can study the stage of training a neuronal network trying to overfitting it, increasing the data with augmentation of the input database or regularizing the network by using different values of drop out. This may lead us to some different results in terms of accuracy and loss, so we can conclude which metric and values are the most accurate.
 
 # Task 3
 
@@ -36,10 +36,10 @@ In this task we wanted to train a neural network to detect the rotation angle of
 
 
 <!--Images-->
-[image-javier]: misc/images/javier_rica.jpeg "Javier de la Rica"
-[image-eva]: misc/images/eva_julian.jpg "Eva Julian"
-[image-alberto]: misc/images/alberto_montes.jpg "Alberto Montes"
-[image-andres]: misc/images/andres_rojas.jpg "Andrés Rojas"
-[image-daniel]: misc/images/daniel_saez.jpg "Daniel Saez"
+[image-javier]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/javier_rica.jpeg "Javier de la Rica"
+[image-eva]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/eva_julian.jpg "Eva Julian"
+[image-alberto]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/alberto_montes.jpg "Alberto Montes"
+[image-andres]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/andres_rojas.jpg "Andrés Rojas"
+[image-daniel]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/daniel_saez.jpg "Daniel Saez"
 
-[image-upc-logo]: misc/images/upc_etsetb.jpg
+[image-upc-logo]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/upc_etsetb.jpg
