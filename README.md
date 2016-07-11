@@ -36,10 +36,10 @@ In this task we wanted to train a neural network to detect the rotation angle of
 
 
 <!--Images-->
-[image-javier]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/javier_rica.jpeg "Javier de la Rica"
-[image-eva]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/eva_julian.jpg "Eva Julian"
-[image-alberto]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/alberto_montes.jpg "Alberto Montes"
-[image-andres]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/andres_rojas.jpg "Andrés Rojas"
-[image-daniel]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/daniel_saez.jpg "Daniel Saez"
+[image-javier]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/javier_rica.jpeg "Javier de la Rica"
+[image-eva]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/eva_julian.jpg "Eva Julian"
+[image-alberto]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/alberto_montes.jpg "Alberto Montes"
+[image-andres]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/andres_rojas.jpg "Andrés Rojas"
+[image-daniel]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/daniel_saez.jpg "Daniel Saez"
 
-[image-upc-logo]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/images/upc_etsetb.jpg
+[image-upc-logo]: https://raw.githubusercontent.com/telecombcn-dl/dlcv01/master/misc/upc_etsetb.jpg
